@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2F00BCD4"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="297dp"
+        android:layout_height="83dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:drawableTint="#090000"
+        android:text="      enter the following:"
+        android:textColor="#090101"
+        android:textSize="24dp" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginBottom="20dp"
+        android:background="#6D8BC34A"
+        android:ems="10"
+        android:hint="nam"
+        android:inputType="textPersonName"
+        android:paddingLeft="20dp" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginBottom="40dp"
+        android:background="#668BC34A"
+        android:ems="10"
+        android:hint="nam2"
+        android:inputType="textPersonName"
+        android:paddingLeft="20dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginBottom="10dp"
+        android:background="#3CE91E63"
+        android:text="addition"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginBottom="10dp"
+        android:background="#34E91E63"
+        android:text=" subtraction"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginBottom="10dp"
+        android:background="#39E91E63"
+        android:text="multiplication"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginLeft="30dp"
+        android:background="#34E91E63"
+        android:text="division"
+        android:textAllCaps="false" />
+
+</LinearLayout>
